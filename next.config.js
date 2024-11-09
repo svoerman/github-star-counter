@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",  // <=== enables static exports
+  basePath: "/github-star-counter",
+  output: "export",
   reactStrictMode: true,
 };
 
